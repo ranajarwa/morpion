@@ -1,0 +1,133 @@
+html, body {margin:0; padding:0}
+body {
+    background-image: url("/morpion/Images/background.png");
+    background-color:white;
+    margin:0px 0px 0px 0px;
+    background-size: cover;
+}
+h5{
+    float:left;
+    text-align:left;
+    margin-left:500px;
+    font-size:200%;
+    clear:left;
+}
+
+h6{
+    float:right;
+    text-align:right;
+    margin-right:500px;
+    font-size:200%;
+    clear:right;
+}
+button {
+      margin-top:100px;
+      
+}
+h1 {
+    font-family:comic;
+    font-size:500%;
+    color:#8b008b;
+    background-color:transparent;
+    text-align:center;
+}
+h2 {
+    font-family:arial, sans-serif;
+    font-size:160%;
+    color:red;
+    background-color:transparent;
+    text-align:center;
+    text-decoration: underline;
+}
+h3 {
+    font-family:verdana, sans-serif;
+    font-size:150%;
+    color:black;
+    background-color:transparent;
+    text-align:center;
+}
+h4 {
+    font-family:verdana, sans-serif;
+    font-size:150%;
+    color:rgb(98, 8, 121);
+    background-color:transparent;
+    text-align:center;
+}
+p {
+    font-family:verdana, sans-serif;
+    font-size:100%;
+    color:black;
+    background-color:transparent;
+    text-align:left;
+    margin-left:0px;
+    margin-right:0px;
+}
+li {
+    font-family:verdana, sans-serif;
+    font-size:100%;
+    color:black;
+    background-color:transparent;
+    text-align:left;
+    margin-left:0px;
+    margin-right:0px;
+}
+a:link {
+    font-family:verdana, sans-serif;
+    font-size:100%;
+    color:#00bfff;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:visited {
+    font-family:verdana, sans-serif;
+    font-size:100%;
+    color:maroon;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:hover {
+    font-family:verdana, sans-serif;
+    font-size:100%;
+    color:navy;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:active, a:focus {
+    font-family:verdana, sans-serif; font-size:100%; color:; background-color:; text-decoration:; 
+}
+table{
+    border-color:rgb(0, 0, 0);
+    border-style:solid;
+    border-width:1px;
+    width: 25%;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+th, td {
+    border-color:rgb(0, 0, 0);
+    border-style:solid;
+    border-width:1px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.center {
+    float: center;
+    align-items: center;
+    display: block;
+
+  }
+.parti {
+    border: 3px solid green;
+    padding: 10px;
+
+  }
+.nomJouer{
+    border: 1px solid rgb(22, 143, 151);    
+    width: 155px;
+  }
+  
+td:hover {background-color: #f5f5f57c;}
+th:hover {background-color: #f5f5f57c;}

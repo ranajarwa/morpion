@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Morpion</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    
+  </head>
+  <body>
+    <h1 id="partien" style=font-size:200%>Nom de la partie</h1>
+    
+    <h2>Au tour de:</h2>
+    <h3 id="joueur">Nom joueur actuel</h3>
+    <table class="center">
+            <tr>
+                <th id=c1><img src="/morpion/Images/blanc.png" style=height:80%  onclick="jouer(this,1)"></th>
+                <th id=c2><img src="/morpion/Images/blanc.png" style=height:80%  onclick="jouer(this,2)"></th>
+                <th id=c3><img src="/morpion/Images/blanc.png" style=height:80%  onclick="jouer(this,3)"></th>
+            </tr>
+            <tr>
+                <td id=c4><img src="/morpion/Images/blanc.png" style=height:80%  onclick="jouer(this,4)"></td>
+                <td id=c5><img src="/morpion/Images/blanc.png" style=height:80%  onclick="jouer(this,5)"></td>
+                <td id=c6><img src="/morpion/Images/blanc.png" style=height:80%  onclick="jouer(this,6)"></td>
+            </tr>
+            <tr>
+                <td id=c7><img src="/morpion/Images/blanc.png" style=height:80%  onclick="jouer(this,7)"></td>
+                <td id=c8><img src="/morpion/Images/blanc.png" style=height:80%  onclick="jouer(this,8)"></td>
+                <td id=c9><img src="/morpion/Images/blanc.png" style=height:80%  onclick="jouer(this,9)"></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center><button type="button" style="width:25%">REJOUER!</button></center>
+        <script src="main2.js"></script> 
+        <script>
+          window.onload = initJeu();
+        </script>
+  </body>
+</html>
